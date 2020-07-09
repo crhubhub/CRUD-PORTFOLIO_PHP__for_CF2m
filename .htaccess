@@ -1,0 +1,10 @@
+#renommage des liens d'acces...
+#relire, réviser, comprendre !! please
+
+RewriteEngine On
+
+#contourne la redirect vers doss ou fichier
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?page=$1
