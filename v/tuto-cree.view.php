@@ -16,7 +16,9 @@ endif;
                 <h6 class="text-center mb-2">Dans ce tutoriel, je vous propose quelques exercices a réaliser dans une fenêtre séparée
                     en cliquant sur le lien ci-dessous</>
                 <h6 class=" text-center mb-5 mt-2">
-                    <a href="">Click here (target="blank"
+                    <a href="http://www.cssdesk.com/KhEyr" target="_blank">Click
+                        here
+                        (target="blank"
                         ) 👍</a>
                 </h6>
             </div>

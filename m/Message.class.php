@@ -7,16 +7,17 @@ class Message
     private $auteur;
     private $email;
     private $cmn;
+    private $date;
 
-    public function __construct($id, $titre, $auteur, $email, $cmn)
+    public function __construct($id, $titre, $auteur, $email, $cmn, $date)
     {
         $this->id = $id;
         $this->titre = $titre;
         $this->auteur = $auteur;
         $this->email = $email;
         $this->cmn = $cmn;
+        $this->date = $date;
     }
-
     /**
      * @return mixed
      */
@@ -24,6 +25,10 @@ class Message
     {
         return $this->id;
     }
+
+
+
+
 
     /**
      * @param mixed $id
@@ -40,6 +45,16 @@ class Message
     {
         return $this->titre;
     }
+
+
+    /**
+     * @return mixed
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
 
     /**
      * @param mixed $titre
@@ -95,6 +110,15 @@ class Message
     public function setCmn($cmn)
     {
         $this->cmn = $cmn;
+    }
+
+
+    /**
+     * @param mixed $date
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
     }
 
 

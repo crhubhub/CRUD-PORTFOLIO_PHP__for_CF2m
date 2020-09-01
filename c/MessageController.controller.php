@@ -18,9 +18,13 @@ class MessageController{
         $message = $this->messageManager->getMessageById($id);
         require "v/afficherMessage.view.php";
     }
+    public function envoyerEmail() {
+        require 'v/printReponse.view.php';
+    }
 
     public function ajoutMessage(){
         require "v/ajoutMessage.view.php";
+        header('Location: '. URL . "accueil");
     }
 
     public function ajoutMessageValidation(){
@@ -31,8 +35,8 @@ class MessageController{
             "type" => "success",
             "msg" => "Nouveau Message"
         ];
-        
         header('Location: '. URL . "accueil");
+
     }
 
     public function suppressionMessage($id){

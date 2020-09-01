@@ -95,6 +95,14 @@ try {
                 }
                 break;
 
+            case "reponseOK" :
+                if ($_SESSION['connect'] === 1) {
+                    $messageController->envoyerEmail();
+                } else {
+                    throw new Exception("La page n'existe pas");
+                }
+                break;
+
             case
             "messages" :
                 if ($url[1] === "a") {
