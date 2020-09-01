@@ -1,7 +1,7 @@
 <?php
 global $connected;
 $connected = false;
-//todel
+//todelete
 
 if(isset($_POST['username']) && isset($_POST['passwd'])) {
 //    echo 'values inserted';
