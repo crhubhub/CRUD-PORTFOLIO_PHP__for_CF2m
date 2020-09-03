@@ -13,7 +13,7 @@ endif;
     <article class="container-fluid">
         <section class="page-section" id="contact">
             <div class="container pt-2">
-                <h6 class="text-center mb-2">Dans ce tutoriel, je vous propose quelques exercices a réaliser dans une fenêtre séparée
+                <h6 class="text-center mb-2">Dans ce tutoriel, je vous propose quelques exercices à réaliser dans une fenêtre séparée
                     en cliquant sur le lien ci-dessous</>
                 <h6 class=" text-center mb-5 mt-2">
                     <a href="http://www.cssdesk.com/KhEyr" target="_blank">Click
@@ -38,7 +38,7 @@ endif;
             <hr>
             <article class="bg-dark text-light p-3" style="border-radius: 1em">
                 <p>Le positionnement RELATIVE permet le décalage d'un élément
-                    sans que cela n'influence le comportement des éléments suivants ou précédents</p>
+                    sans que cela n'influence le comportement des éléments suivants et/ou précédents</p>
                 <p>Essayez d'ajouter à la #div 1: <br><br><strong>position:relative;<br>
                         left: 20px;
                         <br>top: 5px;</strong> ...et voyons le résultat !</p>
@@ -62,7 +62,7 @@ endif;
                 <img src="public/conc-tutorial/3b.png" class="illub" alt="">
                 <p>DIV1 <strong>passe au premier plan</strong> (z-index: 1 automatique) et va <strong>cacher</strong> une partie de
                     DIV2
-                    car autres éléments se placent sans savoir que DIV1 est au même endroit.</p>
+                    car les autres éléments se placent sans savoir que DIV1 est au même endroit.</p>
             </article>
             <hr>
             <article class="bg-dark text-light p-3" style="border-radius: 1em">
@@ -90,7 +90,7 @@ endif;
             <article class="bg-dark text-light p-3" style="border-radius: 1em">
                 <p>De plus, si vous <strong>ajoutez à son parent TOUTE AUTRE POSITION que celle par défaut </strong>
                     (nommée static), l'élément DIV 1 limitera son déplacement à la zone du parent.</p>
-                <p>(Non-fonctionnel dans l'éditeur on-line que je vous propose, malheureusement. 😖)
+                <p>(Non-fonctionnel dans l'éditeur online que je vous propose, malheureusement. 😖)
                 </p>
                 <img src="public/conc-tutorial/6.png" class="illu" alt="">
                 <img src="public/conc-tutorial/6b.png" class="illub" alt="">
@@ -112,7 +112,7 @@ endif;
             <article class="bg-dark text-light p-3" style="border-radius: 1em">
                 <p>Enfin, en cas de positionnement STICKY <strong> ET </strong>d'une demande de positionnement
                     (exemple: top: 10px;)
-                    sur la DIV1, celle-ci aura un comportement à priori tout régulier, mais respectera ce <strong>top:10px</strong>
+                    sur la DIV1, celle-ci aura un comportement a priori tout régulier, mais respectera ce <strong>top:10px</strong>
                     comme une <strong>distance minimale à respecter.</strong>
                 </p>
                 <p>🥱 De nouveau, cela ne fonctionne pas dans l'éditeur online… à tester sur votre éditeur
@@ -132,7 +132,7 @@ endif;
                 <p>Cependant, 2 autres paradigmes très efficaces pour le responsive existent: </p>
                 <p><strong>Flexbox</strong> et <strong>Grid</strong>
                     Ces 2 systèmes peuvent se mélanger, mais <strong>on choisira plutôt flexbox OU grid</strong> en addition du système classique</p>
-                <p>Vous pouvez <strong>cliquer sur les images</strong> afin d'acceder aux exercices</p>
+                <p>Vous pouvez <strong>cliquer sur les images</strong> afin d'accéder aux exercices</p>
                 <a href="https://codepip.com/games/grid-garden/" target="_blank"><img
                             src="public/conc-tutorial/10.png"
                             class="illu" alt=""></a>

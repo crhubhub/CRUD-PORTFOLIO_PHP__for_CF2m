@@ -4,7 +4,7 @@ abstract class Model{
     private static $pdo;
 
     private static function setBdd(){
-        self::$pdo = new PDO("mysql:host=localhost;dbname=site_2_clovis;charset=utf8","root","");
+        self::$pdo = new PDO("mysql:host=localhost;port=3308;dbname=site_2_clovis;charset=utf8","root","");
         self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
     }
 
@@ -14,4 +14,4 @@ abstract class Model{
         }
         return self::$pdo;
     }
-}
+} 

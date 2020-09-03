@@ -19,13 +19,13 @@
 <body>
 <?php
 if (isset($_SESSION['connect']) && ($_SESSION['connect'] == 1)): ?>
-    <form action="<?= URL ?>accueil" method="post">
+    <form id="dscnnct" action="<?= URL ?>accueil" method="post">
         <label for="disconnect_me"></label>
         <input style="visibility: hidden; z-index: -2" type="text"
                class="form-control"
                id="disconnect_me"
                name="disconnect_me" value="1">
-        <button type="submit" style="margin-left: 350px; background: dodgerblue">Je
+        <button id="#dsccntdbut" type="submit" style="margin-left: 350px; background: dodgerblue">Je
             me
             déconnecte
         </button>
@@ -94,6 +94,8 @@ if (isset($_SESSION['connect']) && ($_SESSION['connect'] == 1)): ?>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="public/script.js"></script>
+<script src="../public/script.js"></script>
 
 
 <!--<script>-->
